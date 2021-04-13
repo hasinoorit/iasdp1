@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width='device-width', initial-scale=1.0" />
+    <title>Class 3</title>
+  </head>
+  <body>
+    <h1>Class 3</h1>
+    <b>Today we will learn</b>
+    <p>
+      <ol>
+        <li>'select' & 'option' Tag</li>
+        <li>'required' & 'value' attribute for 'select' & 'input' tag</li>
+        <li>'radio' type of 'input' tag</li>
+        <li>'label' tag</li>
+        <li>'for' attribute of 'label' tag</li>
+        <li>'id' attribute.</li>
+      </ol>
+    </p>
+    <!-- Select Menu -->
+    <h3>Tags and attributes usage with practical example</h3>
+    <form>
+      <label for="division">Division</label>
+      <select name="Division" id="division" required>
+        <option value=""> -- Select Devision -- </option>
+        <option value="barishal">Barishal</option>
+        <option value="chittagong">Chittagong</option>
+        <option value="dhaka">Dhaka</option>
+        <option value="khulna">Khulna</option>
+        <option value="mymensingh">Mymensingh</option>
+        <option value="rajshahi" selected>Rajshahi</option>
+        <option value="rangpur">Rangpur</option>
+        <option value="sylhet">Sylhet</option>
+      </select><br>
+      <label for="genderMale">Male</label>
+      <input type="radio" name="gender" value="male" id="genderMale">
+      <label for="genderFemale">Female</label>
+      <input type="radio" name="gender" value="female" id="genderFemale">
+      <label for="genderOther">Other</label>
+      <input type="radio" name="gender" value="other" id="genderOther">
+      <!-- <input type="text" name="username" value="hrnoor" placeholder="username" required />
+      <select name="gender" required>
+        <option value=""> Select Gender </option>
+        <option value="male" selected>Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select> -->
+      <input type="submit" value="Registration">
+    </form>
+  </body>
+</html>
